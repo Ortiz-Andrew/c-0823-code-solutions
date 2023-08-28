@@ -1,0 +1,16 @@
+const fullName = 'Andrew Ortiz';
+console.log(fullName);
+console.log(typeof fullName);
+const isCool = 'true';
+Boolean(true);
+console.log(isCool);
+console.log(typeof true);
+const totalPets = '1';
+console.log(totalPets);
+console.log(typeof 1);
+const unknown = 'null';
+console.log(unknown);
+console.log(typeof null);
+let never;
+console.log(never);
+console.log(typeof never);
