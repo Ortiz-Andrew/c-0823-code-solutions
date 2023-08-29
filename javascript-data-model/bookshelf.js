@@ -17,9 +17,6 @@ const bookshelf = [
     author: 'Phil Sturgeon & Laura Bohill',
   },
 ];
-const secondAuthor = bookshelf.author[1];
-console.log('the name of the author is ' + bookshelf.author[1]);
-const firstIsbn = bookshelf.isbn[0];
-console.log('the isbn of the first book is ' + bookshelf.isbn[0]);
-const thirdTitle = bookshelf.title[2];
-console.log('the name of the third book is ' + bookshelf.title[2]);
+console.log('the name of the author is ', bookshelf[1].author);
+console.log('the isbn of the first book is ', bookshelf[0].isbn);
+console.log('the name of the third book is ', bookshelf[2].title);
