@@ -35,31 +35,31 @@ console.log('Does it start with J:', startsWithJ(string));
 
 const person = {
   name: 'Andrew Ortiz',
-  Age: 27,
+  age: 27,
 };
 function isOldEnoughToDrink(person) {
-  if (person >= 21) {
-    return false;
-  } else {
+  if (person.age >= 21) {
     return true;
+  } else {
+    return false;
   }
 }
-console.log('old enough to drink:', isOldEnoughToDrink(person));
+console.log('is old enough to drink', isOldEnoughToDrink(person));
 
 function isOldEnoughToDrive(person) {
-  if (person >= 16) {
-    return false;
-  } else {
+  if (person.age >= 16) {
     return true;
+  } else {
+    return false;
   }
 }
 console.log('is old enough to drive: ', isOldEnoughToDrive(person));
 
 function isOldEnoughToDrinkAndDrive(person) {
-  if (person < 21) {
-    return true;
-  } else {
+  if (person.age >= 16 && person.age >= 21) {
     return false;
+  } else {
+    return true;
   }
 }
 
@@ -72,11 +72,11 @@ const pH = 12;
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } else if (pH > 7) {
+  } else if (pH > 7 && pH >= 0) {
     return 'acid';
-  } else if (pH < 7 || pH < 14) {
+  } else if (pH > 7 && pH <= 14) {
     return 'base';
-  } else if (pH > -1) {
+  } else if (pH < 0 || pH > 14) {
     return 'invalid pH level';
   }
 }
@@ -94,6 +94,7 @@ function introduceWarnerBro(name) {
   }
 }
 console.log('introduce Warner Bros: ', introduceWarnerBro(name));
+introduceWarnerBro('wakko');
 
 const genre = {
   action: 'John Wick',
@@ -117,10 +118,9 @@ function recommendMovie(genre) {
       return 'La La Land';
     case 'scifi':
       return 'Dune';
-    case 'random':
-      return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or scifi';
     default:
-      return 'So many Movies! ';
+      return 'Genre not recognized. Choose between action, comedy, horror, drama, musical, or sci-fi ';
   }
 }
-console.log('recommened movies:', recommendMovie(genre));
+console.log('recommend movie:', recommendMovie(genre));
+recommendMovie('action');

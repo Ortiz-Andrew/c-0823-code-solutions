@@ -24,7 +24,7 @@ After completing this exercise, you should be able to discuss or answer the foll
   OR operator (||)
   NOT operator (!)
 - How do you compare two different expressions in the same condition?
-  using comparsion operators
+  using OR and AND
 - What is the purpose of a `switch` statement?
   to execute code based on the value of the expression
 - Is a `default` clause required in order to use a `switch` statement?
