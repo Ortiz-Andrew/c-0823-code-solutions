@@ -1,0 +1,15 @@
+const fullName = 'Andrew Ortiz';
+const isCool = 'true';
+const totalPets = '1';
+const unknown = 'null';
+let never;
+console.log('value of fullName:', fullName);
+console.log('value of isCool', isCool);
+console.log('value of totalPets', totalPets);
+console.log('value of unknown', unknown);
+console.log('value of never', never);
+console.log('typeof fullName', typeof fullName);
+console.log('typeof true', typeof true);
+console.log('typeof 1', typeof 1);
+console.log('typeof null', typeof null);
+console.log('typeof never', typeof never);
