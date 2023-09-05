@@ -7,10 +7,12 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What are the names of the individual pieces of a CSS rule?
 
 - In CSS, how do you select elements by their `class` attribute?
-
+  . followed by the name of the class
 - In CSS, how do you select elements by their tag name?
-
+  by using the tag name
 - In CSS, how do you select an element by its `id` attribute?
+
+# followed by the id of the element
 
 ## Notes
 
