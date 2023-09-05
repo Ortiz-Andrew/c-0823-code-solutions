@@ -58,8 +58,6 @@ console.log('is old enough to drive: ', isOldEnoughToDrive(person));
 function isOldEnoughToDrinkAndDrive(person) {
   if (person.age >= 16 && person.age >= 21) {
     return false;
-  } else {
-    return true;
   }
 }
 
@@ -74,7 +72,7 @@ function categorizeAcidity(pH) {
     return 'neutral';
   } else if (pH > 7 && pH >= 0) {
     return 'acid';
-  } else if (pH > 7 && pH <= 14) {
+  } else if (pH > 7 && pH < 7) {
     return 'base';
   } else if (pH < 0 || pH > 14) {
     return 'invalid pH level';
