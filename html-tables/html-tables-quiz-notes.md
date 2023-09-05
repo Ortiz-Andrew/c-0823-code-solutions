@@ -9,8 +9,8 @@ After completing this exercise, you should be able to discuss or answer the foll
   td
   tr
   th
-  colspan
-  rowspan
+  thead
+  tbody
 - What purpose do the `thead` and `tbody` elements serve?
   structure the content and make it eaiser to style
 - Give two examples of data that would lend itself well to being displayed in a table.
