@@ -1,0 +1,20 @@
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+table th {
+  background-color: black;
+  color: white;
+}
+
+table tr:nth-child(odd) {
+  background-color: white;
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: #d2d2d2;
+  color: black;
+}
