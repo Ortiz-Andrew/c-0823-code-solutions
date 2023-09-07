@@ -12,16 +12,19 @@
   <body>
     <h2>LEARN MORE</h2>
     <form id="brochure-form">
-      <label id="email">COMPANY EMAIL</label><br />
-      <input class="textbox" placeholder="sally@company.co" /><br />
-      <label id="name">Name</label><br />
-      <input class="textbox" placeholder="Sally Smith" /><br />
-      <label id="hiring-location">WHERE ARE YOU HIRING?</label><br />
-      <input class="textbox" placeholder="City, Country" /><br />
-      <label id="many-engineers" for="hiring-people"
+      <label for="email">COMPANY EMAIL</label><br />
+      <input class="textbox" id="email" placeholder="sally@company.co" /><br />
+      <label for="name">Name</label><br />
+      <input class="textbox" id="name" placeholder="Sally Smith" /><br />
+      <label for="hiring-location">WHERE ARE YOU HIRING?</label><br />
+      <input
+        class="textbox"
+        id="hiring-location"
+        placeholder="City, Country" /><br />
+      <label for="hiring-engineers"
         >HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label
       ><br />
-      <select class="textbox" id="hiring-people">
+      <select class="textbox" id="hiring-engineers">
         <option>1-2 Engineers</option>
         <option>2-4 Engineers</option>
         <option>4-6 Engineers</option>
