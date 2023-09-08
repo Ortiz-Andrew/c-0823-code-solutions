@@ -1,0 +1,39 @@
+* {
+  font-family: serif;
+  font-weight: normal;
+  color: white;
+}
+
+.container {
+  flex-flow: wrap;
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+html {
+  background-color: #1996da;
+}
+
+.col1 {
+  flex-basis: calc(50% / 3);
+}
+
+.widpic {
+  max-height: auto;
+  width: 150px;
+  flex-basis: 20%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.col2 {
+  display: flex;
+  width: 300px;
+  flex-basis: calc(100% / 3);
+}
