@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-third {
+  width: 100%;
+  flex-wrap: nowrap;
+  flex-basis: calc(100% / 3);
+  text-align: center;
+}
+
+.column-fourth {
+  flex-basis: 25%;
+}
+
+.characters {
+  max-height: 100%;
+  flex-basis: auto;
+  width: 100%;
+}
+
+.par1-2 {
+  display: flex;
+  width: 75%;
+  font-size: 18px;
+}
+
+.donkey {
+  width: 300%;
+  height: 300px;
+}
+
+.col4 {
+  display: flex;
+  font-size: 20px;
+}
+
+.mario {
+  width: 300px;
+  height: auto;
+}
