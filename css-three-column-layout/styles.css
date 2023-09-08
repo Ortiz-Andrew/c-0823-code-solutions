@@ -25,15 +25,14 @@ html {
 }
 
 .widpic {
-  max-height: auto;
-  width: 150px;
-  flex-basis: 20%;
-  background-color: white;
   border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border: 5px solid;
 }
 
 .col2 {
   display: flex;
-  width: 300px;
   flex-basis: calc(100% / 3);
 }
