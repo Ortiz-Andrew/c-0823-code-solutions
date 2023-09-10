@@ -49,7 +49,7 @@ body {
   justify-content: center;
 }
 
-.circle img {
+.circle > img {
   width: 45%;
   background-color: white;
 }
