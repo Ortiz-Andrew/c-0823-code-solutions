@@ -1,0 +1,48 @@
+h2 {
+  width: 200px;
+  margin-left: 300px;
+  color: #ec5c57;
+}
+
+#email {
+  font-size: 10px;
+  font-weight: bolder;
+  margin-left: 228px;
+}
+
+#name {
+  font-size: 12px;
+  font-weight: bolder;
+  margin-left: 228px;
+}
+
+#hiring-location {
+  font-size: 10px;
+  font-weight: bolder;
+  margin-left: 228px;
+}
+
+#many-engineers {
+  font-size: 9px;
+  font-weight: bolder;
+  margin-left: 228px;
+}
+
+button {
+  margin-left: 500px;
+  background-color: #ec5c57;
+  color: white;
+  border-radius: 8px;
+  border-color: #ec5c57;
+  padding: 6px;
+  font-size: 12px;
+  width: 70px;
+}
+
+.textbox {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-right: 220px;
+  margin-left: 220px;
+  width: 350px;
+}
