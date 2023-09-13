@@ -1,0 +1,44 @@
+body {
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+.button {
+  display: block;
+  border: none;
+  justify-content: left;
+  color: white;
+  background-color: #4a4ae9;
+  border-radius: 4%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.button-two {
+  color: white;
+  background-color: #eb5d5d;
+  border-radius: 5%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  border: none;
+}
+
+.modal {
+  /* display:none */
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+.modal-content {
+  background-color: white;
+  margin: 20% auto;
+  padding: 1%;
+  width: 45%;
+  text-align: center;
+}
