@@ -13,18 +13,18 @@ body {
   justify-content: space-around;
 }
 
-.pokeball-wrapper:first-child .pokeball {
-  transform: rotate(-30deg);
-}
-
-.pokeball-wrapper:last-child .pokeball {
-  transform: rotate(30deg);
-}
-
 img.pokeball {
   max-width: 100px;
   margin: 0 auto 1rem;
   display: block;
+}
+
+.pokeball-wrapper:first-child > img.pokeball {
+  transform: rotate(-30deg);
+}
+
+.pokeball-wrapper:last-child > img.pokeball {
+  transform: rotate(30deg);
 }
 
 button {
@@ -36,6 +36,5 @@ button {
 }
 
 button:active {
-  outline: none;
   transform: translateY(0.25rem);
 }
