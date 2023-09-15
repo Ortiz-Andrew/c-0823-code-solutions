@@ -7,7 +7,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - What is the `event.target`?
   returns the HTML element that triggered an event.
 - Why is it possible to listen for events on one element that actually happen its descendent elements?
-  its possible cause of event propagation in the DOM
+  its possible cause of the event bubble.
 - What DOM element property tells you what type of element it is?
   tag name
 - What does the `element.closest()` method take as its argument and what does it return?
