@@ -12,7 +12,7 @@ After completing this exercise, you should be able to discuss or answer the foll
 - How can you set up a function to be called
 
 repeatedly without using a loop?
-recursion
+set interval function
 
 - What is the default time delay if you omit the `delay` parameter from `setTimeout()` or `setInterval()`?
 
