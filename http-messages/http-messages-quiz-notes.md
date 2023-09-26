@@ -11,17 +11,15 @@ After completing this exercise, you should be able to discuss or answer the foll
 - Which HTTP method does a browser issue to a web server when you visit a URL?
   TCP connnections
 - What three things are on the start-line of an HTTP **request** message?
-  host
-  user agent
-  accept
+  GET
+  PUT
+  POST
 - What three things are on the start-line of an HTTP **response** message?
   protocol version
   status code
   status text
 - What are HTTP headers?
-  general headers
-  request headers
-  representaion headers
+  HTTP headers let the client and the server pass additional information with an HTTP request or response
 - Where would you go if you wanted to learn more about a specific HTTP Header?
   MDN
 - Is a body required for a valid HTTP request or response message?
